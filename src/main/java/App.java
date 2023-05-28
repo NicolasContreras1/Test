@@ -19,7 +19,7 @@ public class App {
         String commandSql = "{call insert_cliente(?,?,?,?,?,?)}";
 
         CallableStatement cs = conn.prepareCall(commandSql);
-        cs.setString(1,"Martin");
+        cs.setString(1,"Juan");
         cs.setString(2,"Perez");
         cs.setString(3, "Salazar");
         cs.setString(4,"2000-05-17");
